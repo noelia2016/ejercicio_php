@@ -1,0 +1,152 @@
+   #contenedor{
+       height:1680px;
+       width:1320px;
+       border-color:#FF09AA;
+       border-style:solid;
+   }
+   
+   ul li{
+       list-style: none;
+       margin-top:0.3 cm;
+   }
+   
+   h1,h4, a, input {
+       margin-left:0.4cm;
+   }
+   
+   table {
+        border-collapse: collapse;
+   }
+   
+   table , tr, td {
+       border: 5px solid red;
+   }
+
+   
+   /* contenedor general */
+   #cont_general {
+        border-color:green;
+        border-style:double;
+        width:99.5%;
+        height:89%;
+        clear:both;
+   }
+   
+   #cont_general p, textarea, h2 {
+        margin-left:12px;
+   }
+   
+   .comentarios {
+       margin-left:15px;
+   }
+   
+   .text-coment  p {
+       margin-left:25px;
+       padding-top:0.2px;
+   }
+    
+   #actividades {
+        background-color:#FCE890;
+        width:19%;
+        height:96.5%;
+        float:left;
+        margin-top:12px;
+        /*border-color:#EE99DD;
+        border-style:solid;*/
+   }
+   
+   #cuerpo {
+        /*border-color:#EE99DD;
+        border-style:solid;*/
+        width:80%;
+        height:98%;
+        float:left;
+        /*margin-top:1cm;*/
+   }
+   
+   #item-pendientes, #item-completas, #item-encurso {
+       width:26%;
+       height:98%;
+       float:left;
+       border-color:#yellow;
+       border-style:solid;
+       margin-left:1.5cm;
+       margin-top:12px;
+   }
+   
+   /* fin del contenedor general */
+   
+   /* contenedor del login */
+   #login {
+        width:60%;
+        height:80%;
+        text-align:center;
+        margin-top:1.5cm;
+        margin-left:23%;
+        margin-bottom:23%;
+   }
+   
+   #formu {
+       text-align:center;
+       float:clear;
+   } 
+   
+   /* contenedor del login */
+   
+   /* cuerpo de la tarea donde esta la descripcion y los responsables que van a realizar */
+   
+   .cuerpo-tarea {
+       margin: 10px 15px 10px 8px;
+       height:12%;
+       width:80%;
+   }
+   
+   .cuerpo-tarea a {
+       float:right;
+       margin-right:12px;
+   }
+   
+   .tarea_detalle,.tarea_vencida, .tarea_a_vencer {
+       width:90%;
+       height:98%;
+       border-color:#581845;
+       border-style:groove;
+       margin-top:13px;
+   }
+   
+   .tarea_vencida {
+       background-color:#FF5733;
+   }
+   
+   .tarea_a_vencer{
+       background-color:#FFDD33;
+   }
+   
+   .responsables, .acciones {
+       float:left;
+       width:50%;
+   }
+   
+   /* cuerpo de la tarea donde esta la descripcion y los responsables que van a realizar */
+   
+   /* inicio del contenedor de los checklist */
+   
+   .checklist h3 {
+       text-align:center;
+   }
+   
+   .checklist {
+       border-style:dashed;
+       border-color:#FF09AA;
+       border-width: 4px;  
+       height:450px;
+       width:95%;
+       margin-left:23px;
+   }
+   
+   .checklist a {
+       float:right;
+       margin-right:35px;
+   }
+   
+   /* fin del contenedor de los checklist*/
