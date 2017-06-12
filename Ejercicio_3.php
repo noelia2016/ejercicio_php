@@ -11,7 +11,7 @@
           echo 'undefined'; 
        }else{
            /* si esta todo bien realizo la operacion solicitada*/
-           $valor=substr($frase, $long, 1);
+           $valor=substr($frase, $long-1, 1);
            echo 'El valor de la cadena en la longitud elegida es ' . $valor; 
        }
     }else{
