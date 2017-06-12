@@ -8,11 +8,14 @@
 </HEAD>
 <BODY>
     <?php 
-        If (isset($contador) and $contador == 0){
-            $contador=0;
+        
+        /* si esta definida*/
+        if (!isset($_SESSION['contador'])){
+            $_SESSION['contador']= 1;
+        }else{
+            $_SESSION['contador']++;
         }
-        $contador++;
-        echo '<a href=Ejercicio_sesiones_1.php> Has recargado esta página' .$contador.' veces</a>';
+        echo '<a href=Ejercicio_sesiones_1.php> Has recargado esta página ' .$_SESSION['contador'].' veces</a>';
     ?>
 </BODY>
 </HTML>
